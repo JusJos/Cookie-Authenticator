@@ -38,7 +38,7 @@ const signinHandler = (req, res) => {
     const sessionToken = uuid.v4()
 
     const now = new Date()
-    const expiresAt = new Date(+now + 120 * 1000)
+    const expiresAt = new Date(+now + 120*1000)
 
     const session = new Session(username, expiresAt)
     
