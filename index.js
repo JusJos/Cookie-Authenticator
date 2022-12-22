@@ -13,5 +13,5 @@ app.post('/refresh', refreshHandler)
 app.get('/logout', logoutHandler)
 const server = http.createServer(app)
 server.listen(8080,()=>{
-    console.log("Good to Go JARZ");
+    console.log("Good To Go JARZ");
 })
