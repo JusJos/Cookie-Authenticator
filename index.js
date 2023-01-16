@@ -6,7 +6,6 @@ const http = require('http')
 const app = express()
 app.use(bodyParser.json())
 app.use(cookieParser())
-
 app.post('/signin', signinHandler)
 app.get('/welcome', welcomeHandler)
 app.post('/refresh', refreshHandler)
