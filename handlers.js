@@ -12,8 +12,7 @@ class Session {
     }
 
     isExpired() {
-        this.expiresAt < (new Date())
-    }}
+        this.expiresAt < (new Date()) }}
 
 const sessions = {}
 
