@@ -5,6 +5,7 @@ const users = {
     "user2": "password2"
 }
 
+
 class Session {
     constructor(username, expiresAt) {
         this.username = username
